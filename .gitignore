@@ -1,0 +1,21 @@
+# Large dataset files (creditcard.csv is 150MB, exceeds GitHub 100MB limit)
+dataset/*.csv
+*.csv
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environments
+venv/
+.venv/
+env/
+
+# OS / Editor artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
